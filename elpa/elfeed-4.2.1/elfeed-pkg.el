@@ -1,0 +1,2 @@
+;; Generated package description from elfeed.el  -*- mode: lisp-data; no-byte-compile: t; lexical-binding:t -*-
+(define-package "elfeed" "4.2.1" "An Atom/RSS feed reader" '((emacs "29.1") (compat "31")) :commit "acbb86e342d2b8f85dfb30dce9df01db9a829c77" :authors '(("Christopher Wellons" . "wellons@nullprogram.com")) :maintainer '(("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com") ("Ihor Radchenko" . "yantar92@posteo.net") ("Daniel Mendler" . "mail@daniel-mendler.de")) :keywords '("network" "comm" "hypermedia") :url "https://github.com/emacs-elfeed/elfeed")

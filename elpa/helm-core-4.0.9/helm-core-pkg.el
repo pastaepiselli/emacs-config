@@ -1,0 +1,2 @@
+;; Generated package description from helm-core.el  -*- no-byte-compile: t; lexical-binding:t -*-
+(define-package "helm-core" "4.0.9" "Development files for Helm" '((emacs "25.1") (async "2.0")) :commit "a1e8724ed20d1f8024ff7530047374e1d7e994b0" :authors '(("Thierry Volpiatto" . "thievol@posteo.net")) :maintainer '("Thierry Volpiatto" . "thievol@posteo.net") :url "https://emacs-helm.github.io/helm/")

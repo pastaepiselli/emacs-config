@@ -1,0 +1,124 @@
+                             ━━━━━━━━━━━━━
+                              ELFEED NEWS
+                             ━━━━━━━━━━━━━
+
+
+1 Version 4.2.1 (2026-09-26)
+════════════════════════════
+
+  • Bugfixes.
+  • Bind `elfeed-search-copy-link' and `elfeed-show-copy-link' to the
+    key `w', which matches the `M-w' or `C-w' binding to copy/kill
+    something.
+  • Mark `elfeed-search-clipboard-type' as obsolete. Configure
+    `interprogram-cut-function', `select-enable-primary' and
+    `select-enable-clipboard' instead.
+
+
+2 Version 4.2.0 (2026-08-21)
+════════════════════════════
+
+2.1 General
+───────────
+
+  • `elfeed-db-save-idle': New customization option to delay database
+    saving. This helps to avoid pauses when quitting Elfeed windows.
+  • `elfeed-use-libxml': Enable libxml parsing by default if available.
+  • `elfeed-default-directory': Set to user home by default.
+
+
+2.2 Search
+──────────
+
+  • `elfeed-search-tag', `elfeed-search-untag',
+    `elfeed-search-tag-unread', `elfeed-search-untag-unread',
+    `elfeed-search-toggle': Shorter command names and doc string
+    improvements.
+  • `elfeed-search-confirm-tag': New customization variable to require
+    confirmation when tagging multiple entries to avoid accidental
+    modifications.
+  • `elfeed-search-max-entries' and `elfeed-search-extend:' New
+    customization variable and new command to extend truncated search
+    list. The search list is truncated by default to speed up rendering.
+  • `elfeed-search' header line performance improvements.
+  • `elfeed-search-date-filter': Only include a single day.
+
+
+2.3 Tree
+────────
+
+  • Tree folders can be clicked to open or close them.
+  • Tree formatting simplified and improved.
+  • Show feed statistics in tree header line.
+  • `elfeed-tree-tag-face': New face used for tags in `elfeed-tree'.
+  • `elfeed-tree-display-action': New customizable option.
+  • `elfeed-tree-style': Style to use for the tree (`nil', `ascii',
+    `box', `nerd'). Defaults to `box' or `ascii'. Set to `nerd' if you
+    use the Nerd Fonts icons.
+  • `elfeed-tree-style-alist': Customizable variable defining style
+    presets.
+  • `elfeed-tree-and-search': New entry point command to start Elfeed
+    with tree and search windows side by side. You can set
+    `elfeed-entry-point' to this command.
+
+
+3 Version 4.1.1 (2026-08-01)
+════════════════════════════
+
+  • Bugfix: Use `insert-file-contents' to load database instead of
+    `find-file-noselect'. This avoids many interaction issues.
+  • Bugfix: Use appropriate `header-line-highlight' face instead of
+    `highlight' face for header-line elements.
+
+
+4 Version 4.1.0 (2026-06-28)
+════════════════════════════
+
+  • `elfeed-search-live-filter': Use `while-no-input' for better
+    responsiveness.
+  • `elfeed-show-fetch-link': Display message in the buffer during
+    fetching.
+  • Hide more commands in non-Elfeed buffers.
+  • `elfeed-search-next-separator', `elfeed-search-previous-separator':
+    New commands to traverse date or feed title separators.
+  • Depend on Emacs 29.1.
+
+
+5 Version 4.0.1 (2026-06-11)
+════════════════════════════
+
+  • Bugfix: Improve shr image insertion, compatibility with
+    `elfeed-tube'.
+  • Bugfix: Prefix argument handling of `elfeed-show-next'.
+  • Bugfix: Call `elfeed-update-hook' also for feeds which have not been
+    modified.
+  • Minor code cleanup (requires, private function namespacing).
+
+
+6 Version 4.0.0 (2026-06-06)
+════════════════════════════
+
+6.1 General
+───────────
+
+  • `elfeed-entry-point': New customization option to customize `M-x
+    elfeed' to either the search or tree buffer.
+  • `elfeed-search-mode', `elfeed-show-mode', `elfeed-tree-mode': All
+    Elfeed major modes derive from `special-mode'.
+  • Hide irrelevant commands in `M-x' if
+    `read-extended-command-predicate' is set to
+    `command-completion-default-include-p'.
+  • `elfeed-confirm-browse-url': New customization option.
+  • `elfeed-use-libxml': New customization option to enable parsing via
+    `libxml'.
+  • New mouse menus in all Elfeed major modes.
+  • Mouse support in the search buffer and the header line.
+  • Moved elfeed-web.el to the separate repository at
+    <https://github.com/emacs-elfeed/elfeed-web>.
+  • Show title and search filter in Ibuffer via the variable
+    `list-buffers-directory'.
+  • `elfeed-last-update-relative': New option to show last database
+    update in the header line relative to the current time.
+  • `elfeed-csv-export': Marked as autoloaded, `elfeed-csv' is not
+    required anymore.
+  …  …

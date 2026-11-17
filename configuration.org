@@ -1,0 +1,42 @@
+#+TITLE: Emacs configuration
+#+PROPERTY: header-args:elisp :lexical t
+* View settings
+Basically removing some visual elements from standard emacs and adding numbers to lines.
+#+begin_src elisp
+    (set-scroll-bar-mode nil)				;; removes scroll bar
+    (tool-bar-mode -1)						;; removes tool bar
+    (setq tab-width 4)						;; 4 spaces tab
+    (global-display-line-numbers-mode 1)	;; line number of file in every mode
+#+end_src
+
+* Quality of life
+I dont care about backup files ehehehe.
+#+begin_src elisp
+  (setq make-backup-files nil)			;; do not create backup files
+#+end_src
+Selection mode thats a cool feature.
+#+begin_src elisp
+  (delete-selection-mode 1)
+  (fido-mode -1)
+#+end_src
+
+* Bindings
+Changing basic commands with the helm framework
+#+begin_src elisp
+    (global-set-key (kbd "C-x C-f") 'helm-find-files)
+  (global-set-key (kbd "M-i") 'helm-imenu)
+  (global-set-key (kbd "C-x b") 'helm-buffers-list)
+  (global-set-key (kbd "M-y") 'helm-show-kill-ring)
+
+#+end_src
+
+* Elfeed
+I like having my feed on emacs.
+#+begin_src elisp
+  (setq elfeed-feeds
+     '("https://www.ilblast.it/feed/"))
+#+end_src
+* Theme and font
+#+begin_src elisp
+  (load-theme 'solarized-light t)
+#+end_src

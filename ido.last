@@ -1,0 +1,37 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/lorenzo/dev/c/the_c_programming_language_ex/" . "chapter_1/")
+ ("/home/lorenzo/dev/c/" . "the_c_programming_language_ex/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/lorenzo/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/lorenzo/.emacs.d/" (27364 47845 775746 435000) "elfeed/" "./" "elpa/" "auto-save-list/" "places.eld" "tramp" "init.el" "eln-cache/" "recentf.eld" "history" "eshell/" "url/" "../")
+
+ ("/home/" (27146 63787 279997 362000) "./" "lorenzo/" "../")
+
+ ("/home/lorenzo/dev/c/the_c_programming_language_ex/chapter_1/" (27364 47436 97751 503000) "ex1_7.c" "ex1_20.c" "./" "a.out" "ex1_10.c" "ex1_13.c" "ex1_5.c" "ex1_6.c" "ex1_18.c" "ex1_9.c" "ex1_12.c" "ex1_14.c" "ex1_19.c" "ex1_15.c" "ex1_17.c" "ex1_3.c" "ex1_4.c" "ex1_1.c" "ex1_8.c" "../")
+
+ ("/home/lorenzo/dev/c/the_c_programming_language_ex/" (27361 60460 699907 502000) "./" "chapter_1/" "../")
+
+ ("/home/lorenzo/dev/c/" (27361 60449 573907 640000) ".git/" "the_c_programming_language_ex/" "drJonasBirtchCourse/" "head/" "./" "getascii/" "wordle/" "butt_head_doubler/" "my_atoi/" "ls/" "my_cat/" "sorting/" "README.md" "leetcode/" "../")
+
+ ("/home/lorenzo/dev/" (27355 33431 232804 574000) "bash/" "worldbanc/" "c/" "./" "fyr/" "psvita/" "uploadFileSpringLocale/" "java/" "leetcode_playground/" "carica_file/" "uploadFileDB/" "prova.py" "contribute/" "core-spring-labfiles/" "kindle_newspaper/" "]/" "pong/" "fyr_ai/" "portfolio/" "seriousdb/" "scripts/" "computerVirus/" "minesweaper-terminal/" "codeforces/" "progettoSigarette/" "../" "lua-projects/" "ebooks/")
+
+ ("/home/lorenzo/" (27364 28280 621454 198000) "~/" ".psql_history" ".bash_history-04655.tmp" ".config/" ".npm/" ".Xauthority" ".ideavimrc" "temp/" ".emacs.d~/" ".cline/" ".spacemacs.env" ".bash_history-21510.tmp" "Library/" ".ollama/" ".pyenv/" ".w3m/" ".wget-hsts" ".sonic-pi/" ".pulse-cookie" "media/" ".viminfo" "PycharmProjects/" "Apps/" ".sts4/" ".eclipse/" ".steampid" "Unity/" ".texlive/" ".bash_history-08435.tmp" "vdpm/" ".emacs.d/" ".bash_history-12196.tmp" "./" ".plastic4/" ".python_history" ".bash_history" ".spacemacs" ".profile" ".junie/" "dev/" ".claude.json" ".codex/" ".bash_history-03470.tmp" ".unity/" "Unity user templates/" ".swt/" ".gnupg/" ".tmux.conf" ".gdb_history" ".bash_profile.bak" "org/" ".steam/" ".java/" ".bash_history-06783.tmp" "neovim/" "Prova1/" ".cache/" ".bash_logout" "Microsoft/" ".dbus/" "Downloads/" ".ssh/" ".docker/" "Documents/" ".bash_history-09857.tmp" ".lesshst" ".copilot/" "latex/" ".doom.d/" ".claude/" ".pki/" ".bash_history-12391.tmp" ".m2/" ".github-copilot-cli/" "Setup Guide In-Editor Tutorial/" "yay/" "prova/" ".bash_history-09968.tmp" "#update_repos.py#" "Pictures/" ".bash_profile" "sent/" "sw_development/" "Notes/" ".vim/" ".gitconfig" ".sonarlint/" ".xinitrc" ".bashrc" ".cargo/" ".fehbg" ".steampath" ".local/" "../" ".fonts/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

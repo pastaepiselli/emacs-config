@@ -1,0 +1,128 @@
+./a.out 
+./a.out 
+cc ex1_13.c 
+./a.out 
+cc ex1_13.c 
+./a.out 
+cc ex1_13.c 
+./a.out 
+./a.out 
+cc ex1_13.c 
+./a.out 
+cc ex1_13.c 
+./a.out 
+cc ex1_13.c 
+cc ex1_13.c 
+cc ex1_14.c 
+cc ex1_14.c 
+cc ex1_14.c 
+./a.out 
+./a.out 
+cc ex1_14.c 
+cc ex1_14.c 
+cc ex1_14.c 
+./a.out 
+./a.out 
+cc ex1_14.c 
+./a.out 
+cioa come sti tutto bene spero 11237 8891
+./a.out 
+cc ex1_15.c 
+cc ex1_15.c 
+cc ex1_15.c 
+./a.out 
+cc ex1_15.c 
+./a.out 
+./a.out 
+cc ex1_15.c 
+./a.out 
+cc ex1_17.c 
+cc ex1_17.c 
+cc ex1_17.c 
+./a.out 
+cc ex1_18.c 
+cc ex1_18.c 
+cc ex1_18.c ]
+cc ex1_18.c ]
+cc ex1_18.c 
+./a.out 
+cc ex1_18.c 
+./a.out 
+cc ex1_18.c 
+./a.out 
+cc ex1_18.c 
+./a.out 
+cc ex1_18.c 
+| ~          
+./a.out
+| ~          
+cc ex1_18.c 
+cc ex1_18.c 
+cc ex1_18.c 
+cc ex1_18.c 
+./a.out 
+cc ex1_18.c 
+./a.out 
+cc ex1_18.c 
+./a.out 
+cc ex1_18.c 
+./a.out 
+cc ex1_18.c 
+./a.out 
+cc ex1_18.c 
+cc ex1_18.c 
+cc ex1_18.c 
+./a.out 
+cc ex1_18.c 
+./a.out 
+cc ex1_18.c 
+./a.out 
+./a.out 
+cc ex1_18.c 
+./a.out 
+cc ex1_20.c 
+./a.out 
+git add . 
+git commit -m "projects.html"
+git push
+git add . 
+git commit -m "first post"
+git push
+git add .
+git commit -m "fix"
+git push
+git add .
+git commit -m "fix hyperlink"
+git push 
+cd .. 
+ls
+git add . 
+git commit -m "updated post"
+git push
+cd .emacs.d
+chmod +x configuration.org 
+./build.sh 
+./build.sh 
+./build.sh 
+git add . 
+git commit -m "added come back links"
+git push 
+git pull
+git pull origin main
+git pull origin master
+git branch
+git pull origin master -no-rebase
+git pull origin master --no-rebase
+cd .. 
+./build.sh 
+./build.sh 
+./build.sh 
+./build.sh 
+./build.sh 
+./build.sh 
+./build.sh 
+./build.sh 
+./build.sh 
+git add . 
+git commit -m "changed colors and formatted css"
+git push 
