@@ -1,3 +1,7 @@
+/home/lorenzo/.emacs.d/.gitignore
+/home/lorenzo/.emacs.d/#.gitignore#
+/home/lorenzo/.emacs.d/auto-save-list/.saves-28260-minipc~
+/home/lorenzo/.emacs.d/auto-save-list/#.saves-28260-minipc~#
 /home/lorenzo/.emacs.d/url/cookies
 /home/lorenzo/.emacs.d/url/#cookies#
 /home/lorenzo/.emacs.d/configuration.org
